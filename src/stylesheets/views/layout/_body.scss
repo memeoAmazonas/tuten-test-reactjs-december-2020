@@ -1,0 +1,33 @@
+.body-container {
+  background: $white;
+  height: 100%;
+  width: 144rem;
+  margin: 0 auto;
+}
+
+@include screen(desktop){
+
+  .body-container {
+
+    width: 100%;
+
+    &-content {
+      height: 100%;
+      margin: 0 auto;
+      width: 95%;
+    }
+
+  }
+
+}
+
+.main-container {
+  border-radius: 5rem;
+  background-color: $dark;
+  height: 80%;
+  margin: 0 auto;
+  padding: 5rem;
+}
+.margin-top-25 {
+  margin-top: 25rem;
+}

@@ -1,0 +1,13 @@
+.title-view {
+  color: $white;
+  font: {
+    size: 3rem;
+  }
+}
+.link-dashboard {
+@include label(2);
+}
+
+.content-tooltip {
+  @include label(1.2);
+}

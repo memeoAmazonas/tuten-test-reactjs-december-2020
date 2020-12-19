@@ -1,0 +1,34 @@
+:root {
+  --background: rgb(246, 204, 132);
+  --box-shadow-section-color: rgb(72,102,133);
+  --box-shadow-section-background: rgb(119,119,119);
+  --section-background: rgb(140, 166, 232);
+  --font-color: rgb(0, 0, 10);
+  --background-section: rgb(168,218, 220);
+  --first-color: rgb(145,155, 175);
+  --second-color: rgb(255,255,255);
+  --third-color: rgb(77, 118, 128);
+  --fourth-color: rgb(140, 166, 232);
+  --fith-color: rgb(77, 215, 128);
+  --sixth-color: rgb(201, 207, 209);
+  --seventh-color: rgb(0, 71, 178);
+  --danger-color: rgb(220, 53, 69);
+  --error-color: rgb(237, 90, 11);
+  --info-color:rgb(77, 188, 218);
+}
+$background: var(--background);
+$box-shadow-section-color: var(--box-shadow-section-color);
+$box-shadow-section-background: var(--box-shadow-section-background);
+$section-background: var(--section-background);
+$font-color: var(--font-color);
+$background-section: var(--background-section);
+$first-color: var(--first-color);
+$second-color: var(--second-color);
+$third-color: var( --third-color);
+$fourth-color:  var( --fourth-color);
+$fith-color: var(--fith-color);
+$sixth-color: var(--sixth-color);
+$seventh-color: var(--seventh-color);
+$danger-color: var(--danger-color);
+$error-color: var(--error-color);
+$info-color: $info

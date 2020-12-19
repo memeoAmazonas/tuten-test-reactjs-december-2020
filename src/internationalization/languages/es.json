@@ -1,0 +1,23 @@
+{
+  "name.app": "Tuten test",
+  "team.list": "Lista de Equipos",
+  "home": "Inicio",
+  "roster": "Lista de jugadores de los {{name}}",
+  "number": "Número: {{number}}",
+  "position": "Posición: {{position}}",
+  "hand" : "Mano:  {{hand}}",
+  "nick": "Apodo: {{nick}}",
+  "login": "Iniciar Sesión",
+  "logout": "Cerrar Sesión",
+  "email": "Correo Electrónico",
+  "password": "Contraseña",
+  "booking.id" : "BookingId",
+  "client": "Cliente",
+  "booking.time" : "Fecha de Creación",
+  "street.address": "Dirección",
+  "booking.price": "Precio",
+  "greater.than": "Mayor igual a",
+  "smaller.than": "Menor igual a",
+  "equal.to": "Igual a",
+  "error.login": "usuario o contraseña invalidos"
+}

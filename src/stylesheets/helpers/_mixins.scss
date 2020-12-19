@@ -1,0 +1,53 @@
+@mixin set-color($key, $value) {
+  #{$key}: var($value);
+}
+
+@mixin set-shadow-box($classname, $height, $width, $percentage) {
+
+  $orientation: -3.1deg;
+  $actually-width: $width+rem;
+  $box-shadow: 0 .28rem .22rem rgba(0, 0, 0, 0.034),
+  0 .67rem .53rem rgba(0, 0, 0, 0.048),
+  0 .125rem 1rem rgba(0, 0, 0, 0.06),
+  0 2.23rem 1.79rem rgba(0, 0, 0, 0.072),
+  0 4.18rem 3.34rem rgba(0, 0, 0, 0.086),
+  0 10rem 8rem rgba(0, 0, 0, 0.12);
+  @if $percentage {
+    $actually-width: $width*1%;
+  }
+  .#{$classname} {
+    background: $fith-color;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem 0 $box-shadow-section-color;
+    height: $height+rem;
+    width: $actually-width;
+
+  }
+
+}
+
+
+$units: 1px !default;
+
+@mixin screen($res-first, $res-last: $res-first) {
+  @if $res-first == $res-last {
+    $max-size: map_get($breakpoints, $res-first);
+    @media screen and (max-width: $max-size) {
+      @content;
+    }
+  } @else if $res-first != $res-last {
+    $min-size: map_get($breakpoints, $res-first);
+    $max-size: map_get($breakpoints, $res-last);
+    @media screen and (min-width: $min-size) and (max-width: $max-size) {
+      @content;
+    }
+  }
+}
+
+@mixin label($size) {
+  color: $white;
+  font: {
+    family: "karla", sans-serif;
+    size: $size+rem;
+  }
+}
