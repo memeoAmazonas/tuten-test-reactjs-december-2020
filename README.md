@@ -1,4 +1,4 @@
-<h3 align="center">Test AWS REACT</h3>
+<h3 align="center">Test React Tuten</h3>
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -19,7 +19,7 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## getting-started
 
 ### Prerequisites
 
@@ -33,7 +33,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/dmarcguardian/pruebaJose.git
+   git clone https://github.com/memeoAmazonas/tuten-test-reactjs-december-2020.git
    ```
 2. Install NPM packages
    ```sh
